@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app </title>
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background-color: aliceblue;
+    }
+    .field{
+        width: 400px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .field input{
+        width: 100%;
+        padding: 20px 0 20px 0px;
+        margin: 20px 0;
+    }
+    .field input[type="submit"]{
+        padding: 20px;
+        width: 100%;
+        background-color: cadetblue;
+        font-size: 25px;
+        outline: none;
+        color: white;
+        border: none;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+    .field input::placeholder{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>hello world from home page</h1>
+
+    <div class="field">
+        <input type="text" placeholder="enter you'r username" required>
+        <input type="text" placeholder="enter you'r password" required>
+        <input type="submit">
+    </div>
+</body>
+</html>
